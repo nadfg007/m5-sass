@@ -1,0 +1,39 @@
+//VARIABLES
+$marge: 20px 0 0 0;
+
+//text h1
+$fontColor-h1: gold;
+$fontSize-h1: 5vw;
+$fontFamily-h1: "Times new Roman";
+
+//strips
+$altura: 200vh;
+$anchura: 200vw;
+$posicio-text: left;
+
+//strip content
+$align-items: center;
+$contenido: center;
+$position: absolute;
+$tipo-display: flex;
+
+//strip before
+$fondo-strip: silver;
+$strip-opacity: 0.08;
+
+$strip-transform: skew(30deg) scaleY(1) translate(0, 0);
+
+@mixin hoover-before-strip {
+  margin: 0;
+  transform: skew(0deg) scaleX(2) translate(0, 0);
+  opacity: 0.2;
+}
+
+@mixin strip {
+  width: 20vw;
+  height: 100vh;
+}
+
+@mixin text-h1{
+   @include 
+}
